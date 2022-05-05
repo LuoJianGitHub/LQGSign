@@ -1,0 +1,107 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - LQGBaseAppDelegate (1.0.0)
+  - LQGBaseModel (1.0.0):
+    - YYModel
+  - LQGBaseView (1.0.0):
+    - LQGBaseView/BaseController (= 1.0.0)
+    - LQGBaseView/BaseView (= 1.0.0)
+    - LQGBaseView/Protocol (= 1.0.0)
+  - LQGBaseView/BaseController (1.0.0):
+    - FDFullscreenPopGesture
+    - LQGBaseView/Protocol
+    - LQGCategory
+    - LQGMacro
+    - WebViewJavascriptBridge (~> 6.0.3)
+  - LQGBaseView/BaseView (1.0.0):
+    - LQGBaseView/Protocol
+  - LQGBaseView/Protocol (1.0.0)
+  - LQGBaseViewModel (1.0.0)
+  - LQGCategory (1.0.0)
+  - LQGMacro (1.0.0)
+  - LQGSign (1.0.0):
+    - LQGBaseModel
+    - LQGBaseView
+    - LQGBaseViewModel
+    - LQGCategory
+    - LQGTip
+    - LQGUIStyle
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+  - LQGTip (1.0.0):
+    - LQGBaseModel
+    - LQGBaseView/BaseView
+    - LQGCategory
+    - LQGMacro
+    - Masonry
+  - LQGUIStyle (1.0.0):
+    - LQGBaseView/BaseController
+  - Masonry (1.1.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SnapKit (5.0.1)
+  - WebViewJavascriptBridge (6.0.3)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - LQGBaseAppDelegate
+  - LQGSign (from `../`)
+  - LQGUIStyle (from `https://github.com/LuoJianGitHub/LQGUIStyle.git`, tag `1.0.0`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FDFullscreenPopGesture
+    - LQGBaseAppDelegate
+    - LQGBaseModel
+    - LQGBaseView
+    - LQGBaseViewModel
+    - LQGCategory
+    - LQGMacro
+    - LQGTip
+    - Masonry
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - WebViewJavascriptBridge
+    - YYModel
+
+EXTERNAL SOURCES:
+  LQGSign:
+    :path: "../"
+  LQGUIStyle:
+    :git: https://github.com/LuoJianGitHub/LQGUIStyle.git
+    :tag: 1.0.0
+
+CHECKOUT OPTIONS:
+  LQGUIStyle:
+    :git: https://github.com/LuoJianGitHub/LQGUIStyle.git
+    :tag: 1.0.0
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  LQGBaseAppDelegate: 19083344386ed54755bb63738b97d576e680dc51
+  LQGBaseModel: e7da52a706eb046e3c45276596cc77cbe1ab1777
+  LQGBaseView: 1bd9188e1671d7f0926a172df2a201f7749c8543
+  LQGBaseViewModel: 750b34eb0b522716aaae3541fbe0f49ed8996488
+  LQGCategory: d06e3e77818efa42e810aeebc493f3cb122522aa
+  LQGMacro: 83996fc0371fe853771123e3dc879908765bc44a
+  LQGSign: 3f47665e9b595047c121e748fadc26d74b304312
+  LQGTip: 5b52aa76aecdda394e5fbdcc27414c13230de610
+  LQGUIStyle: 7cf1536324cfb44eb506b97db67f3c402ee1bacc
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: a261f531f51951b7afc763c1d519b30f0c31c0d8
+
+COCOAPODS: 1.11.2
